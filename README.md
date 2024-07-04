@@ -1,4 +1,6 @@
 # .bmp file header reader
+[![GitHub Actions CI](https://github.com/kamendov-maxim/Summer_school_entry_task/actions/workflows/ci.yml/badge.svg)](https://github.com/kamendov-maxim/Summer_school_entry_task/actions/workflows/ci.yml)
+
 CLI utility that prints .bmp file headers in a human readable format
 Only .bmp files of versions 3, 4 and 5 are supported
 # Requirements
@@ -7,14 +9,20 @@ Only .bmp files of versions 3, 4 and 5 are supported
 
 # Build
 
-To build with gcc for your system from the folder of repository pass this to command line:
-```make```
+To build with gcc for your system pass this to command line from the folder of repository :
+```
+make
+```
 
 To build for RISC-V:
-```make cross-build```
+```
+make cross-build
+```
 
 # Usage
 
 Pass path to image as an argument to the program:
-```./bmp_header_reader <path-to-image>```
+```
+./bmp_header_reader <path-to-image>
+```
 
